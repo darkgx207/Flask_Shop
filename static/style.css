@@ -25,9 +25,13 @@
     font-weight: 900;
 }
 
+.nv-left a:hover {
+   transition: 0.2s;
+   filter: brightness(5);
+}
 .field {
     background-color: black;
-    border: 1px solid rgb(255, 92, 255);
+    border: 1px solid rgb(203, 92, 255);
 
 }
 .field h1 {
@@ -51,6 +55,7 @@ footer {
 footer a {
     margin: 0 15px;
     color: white;
+    font-weight: 600;
 }
 .main {
     background-color: rgb(247, 244, 226);
